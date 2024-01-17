@@ -46,8 +46,8 @@ h2 {
     border: 1px solid grey;
     background-color: black;
     border-radius: 10px;
-    padding: .4em;
-    height: 2em;
+    padding: 1em;
+    min-height: 2em;
 }
 
 body {
@@ -82,6 +82,8 @@ button {
     margin-left: 1em;
     border: 1px solid black;
     cursor: pointer;
+    font-size: larger;
+    padding:.2em;
 
 
 
@@ -100,15 +102,8 @@ button:hover {
         max-height: 100vh;
     }
 
-    .container {
-        padding: 10px;
 
-    }
 
-    #turnh2 {
-        width: fit-content;
-        padding: .2em;
-    }
 }
 
 
@@ -126,8 +121,4 @@ button:hover {
         height: 5em;
     }
 
-    #turnh2 {
-        width: fit-content;
-        padding: .2em;
-    }
 }
